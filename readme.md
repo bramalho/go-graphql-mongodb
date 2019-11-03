@@ -1,4 +1,4 @@
-# Go GraphQL DB
+# Go GraphQL MongoDB
 
 Get Authors
 [query={authors{id,firstname,lastname}}](http://localhost:8088/graphql?query={authors{id,firstname,lastname}})
