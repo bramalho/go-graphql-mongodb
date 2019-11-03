@@ -1,1 +1,1 @@
-# Go GraphQL NoSQL
+# Go GraphQL Mutations
