@@ -1,1 +1,1 @@
-# Go GraphQL Mutations
+# Go GraphQL DB
