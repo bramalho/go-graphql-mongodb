@@ -1,19 +1,19 @@
 # Go GraphQL DB
 
 Get Authors
-<http://localhost:8088/graphql?query={authors{id,firstname,lastname}}>
+[query={authors{id,firstname,lastname}}](http://localhost:8088/graphql?query={authors{id,firstname,lastname}})
 
 Create Author
-<http://localhost:8088/graphql?query=mutation+_{createAuthor(firstname:"Bruno",lastname:"Ramalho"){id,firstname,lastname}}>
+[query=mutation+_{createAuthor(firstname:"Bruno",lastname:"Ramalho"){id,firstname,lastname}}](http://localhost:8088/graphql?query=mutation+_{createAuthor(firstname:"Bruno",lastname:"Ramalho"){id,firstname,lastname}})
 
 Get Author
-<http://localhost:8088/graphql?query={author(id:"123"){id,firstname,lastname}}>
+[query={author(id:"123"){id,firstname,lastname}}](http://localhost:8088/graphql?query={author(id:"123"){id,firstname,lastname}})
 
 Get Blogs
-<http://localhost:8088/graphql?query={blogs{id,title,body,author}}>
+[](http://localhost:8088/graphql?query={blogs{id,title,body,author}})
 
 Create Blog
-<http://localhost:8088/graphql?query=mutation+_{createBlog(authorID:"5dbf012c3778b9648b8609a1",title:"Hello World",body:"It works!"){id,title,body}}>
+[query=mutation+_{createBlog(authorID:"5dbf012c3778b9648b8609a1",title:"Hello_World",body:"It_works!"){id,title,body}}](http://localhost:8088/graphql?query=mutation+_{createBlog(authorID:"5dbf012c3778b9648b8609a1",title:"Hello_World",body:"It_works!"){id,title,body}})
 
 Get Blog
-<http://localhost:8088/graphql?query={blog(id:"123"){id,title,body,author}}>
+[query={blog(id:"123"){id,title,body,author}}](http://localhost:8088/graphql?query={blog(id:"123"){id,title,body,author}})
