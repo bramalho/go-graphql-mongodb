@@ -10,7 +10,7 @@ Get Author
 [query={author(id:"123"){id,firstname,lastname}}](http://localhost:8088/graphql?query={author(id:"123"){id,firstname,lastname}})
 
 Get Blogs
-[](http://localhost:8088/graphql?query={blogs{id,title,body,author}})
+[query={blogs{id,title,body,author}}](http://localhost:8088/graphql?query={blogs{id,title,body,author}})
 
 Create Blog
 [query=mutation+_{createBlog(authorID:"5dbf012c3778b9648b8609a1",title:"Hello_World",body:"It_works!"){id,title,body}}](http://localhost:8088/graphql?query=mutation+_{createBlog(authorID:"5dbf012c3778b9648b8609a1",title:"Hello_World",body:"It_works!"){id,title,body}})
